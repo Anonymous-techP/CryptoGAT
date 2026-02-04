@@ -1,8 +1,8 @@
 # CryptoGAT
 An Effective Cryptocurrency Price Forecasting Model. We introduce a set of simple yet effective models named CryptoGAT as a new baseline for comparison. CryptoGAT uses an attention mechanism architecture to process graph-structured data, allowing each node to focus on its neighbors to compute hidden representations and assign different weights. To handle cryptocurrency markets with different characteristics, we further introduce a variant, named FGAT. Now we have a CryptoGAT family:
 
--**GAT:** A simple yet effective graph-based model via a graph attention mechanism.
--**FGAT:** FeatureMixer Graph Attention Network (FGAT) combines the Indicator mixing mechanism with the graph attention architecture.
+- **GAT:** A simple yet effective graph-based model via a graph attention mechanism.
+- **FGAT:** FeatureMixer Graph Attention Network (FGAT) combines the Indicator mixing mechanism with the graph attention architecture.
 
 # Getting Started
 
@@ -30,7 +30,7 @@ python process_crypto_ALL.py
 ### CRYPTO_1D_ENHANCED
 
 ```bash
-# Process the FGAT's data into CRYPTO_1D_ENHANCED
+# Process the data into CRYPTO_1D_ENHANCED for FGAT
 cd src_Feature
 python process_crypto_enhanced.py
 ```
@@ -52,8 +52,8 @@ python train_gat_enhanced.py
 ```
 ## Evaluation metrics
 
--**MSE:** Mean Squared Error
--**IC:** Information Coefficient
--**ICIR:** Information Coefficient Information Ratio
--**Prec@10:** Precision at Top 10
--**Sharpe:** Sharpe Ratio
+- **MSE:** Mean Squared Error
+- **IC:** Information Coefficient
+- **ICIR:** Information Coefficient Information Ratio
+- **Prec@10:** Precision at Top 10
+- **Sharpe:** Sharpe Ratio
